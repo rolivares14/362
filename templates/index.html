@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div class="background">
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="blurred-box">
+    <div class="about-me">
+      <div class="profile-pic">
+        <img src="{{ url_for('static', filename='images/IMG_5619.jpg') }}" alt="Your Profile Picture">
+      </div>
+      <h2>About Me</h2>
+      <p>Hi, I'm Robert and I'm a 22 year old computer science student at CSUF. My current hobbies
+        include photography, art, and programming. My main programming languages are C++ and Python.
+        But I know C, C++, Python, Assembly Language, and now HTML and CSS after creating this portfolio 
+        website.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
+
+  <!-- Clickable Boxes -->
+  <div class="box-container">
+    <a href="/skills" class="box">Skills</a>
+    <a href="/projects" class="box">Projects</a>
+    <a href="/work" class="box">Work</a>
+    <a href="/contact" class="box">Contact Me</a>
+  </div>
+
+</body>
+</html>
+

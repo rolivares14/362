@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Work Experience</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body class="work-page">
+    <a class="nav-link" href="/">Homepage</a>
+    <a class="nav-link" href="/projects">Projects</a>
+    <a class="nav-link" href="/skills">Skills</a>
+    <a class="nav-link" href="/contact">Contact Me</a>
+
+    <div class="container">
+      <a class="resume" href="{{ url_for('static', filename='files/hp.pdf') }}" download style="--color:#1e9bff;">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        RESUME
+      </a>
+    </div>
+  </body>
+</html>
